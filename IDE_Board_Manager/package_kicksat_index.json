@@ -19,7 +19,7 @@
           "help": {"online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"},
           "boards": [
             {"name": "KMB21"},
-            {"name": "KMB22"},
+            {"name": "KMB22"}
           ],
           "toolsDependencies": [
             {
