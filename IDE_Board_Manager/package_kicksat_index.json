@@ -14,8 +14,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/kicksat/ArduinoIDE-KickSat-Boards/master/IDE_Board_Manager/kicksat_boards.1.0.zip",
           "archiveFileName": "kicksat_boards.1.0.zip",
-          "checksum": "SHA-256:C2DBF70AE43032A12E7DE6AC71E40E8662B974D353BF0545369CE9FEC8B337E7",
-          "size": "1207305",
+          "checksum": "SHA-256:331EF2F78F909B3E2970995B3972BBEC28281A153F78D97793D95E88CAA9AF93",
+          "size": "1206217",
           "help": {"online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"},
           "boards": [
             {"name": "KMB20"},
