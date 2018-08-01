@@ -1,0 +1,39 @@
+{
+  "packages": [
+    {
+      "name": "KickSat",
+      "maintainer": "KickSat",
+      "websiteURL": "http://kicksat.io",
+      "email": "kicksat@gmail.com",
+      "help": {
+        "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
+      },
+      "platforms": [
+        {
+          "name": "KickSat Boards",
+          "architecture": "samd",
+          "version": "%%VERSION%%",
+          "category": "Contributed",
+          "url": "https://github.com/kicksat/ArduinoIDE-KickSat-Boards/tree/master/IDE_Board_Manager/kicksat_boards.1.0.tar.bz2",
+          "archiveFileName": "%%FILENAME%%",
+          "checksum": "SHA-256:%%CHECKSUM%%",
+          "size": "%%SIZE%%",
+          "help": {
+            "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
+          },
+          "boards": [
+            {
+              "name": "KMB21"
+            },
+            {
+              "name": "KMB22"
+            },
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": [
+      ]
+    }
+  ]
+}
