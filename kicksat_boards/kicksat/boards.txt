@@ -16,7 +16,7 @@
 
 # KMB20 (Native USB Port)
 # ---------------------------------------
-kmb20.name=KickSat Flight Computer (20)
+kmb20.name=KMB20
 kmb20.vid.0=0x2341
 kmb20.pid.0=0x804d
 kmb20.vid.1=0x2341
@@ -45,7 +45,7 @@ kmb20.bootloader.file=kicksat/samd21_sam_ba_kicksat.hex
 
 # KMB21 (Native USB Port)
 # ---------------------------------------
-kmb21.name=KickSat Flight Computer (21)
+kmb21.name=KMB21
 kmb21.vid.0=0x2341
 kmb21.pid.0=0x804d
 kmb21.vid.1=0x2341
@@ -74,7 +74,7 @@ kmb21.bootloader.file=kicksat/samd21_sam_ba_kicksat.hex
 
 # KMB22 (Native USB Port)
 # ---------------------------------------
-kmb22.name=KickSat Flight Computer (22)
+kmb22.name=KMB22
 kmb22.vid.0=0x2341
 kmb22.pid.0=0x804d
 kmb22.vid.1=0x2341
