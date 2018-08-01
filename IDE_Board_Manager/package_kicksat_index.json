@@ -5,9 +5,7 @@
       "maintainer": "KickSat",
       "websiteURL": "http://kicksat.io",
       "email": "kicksat@gmail.com",
-      "help": {
-        "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
-      },
+      "help": {"online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"},
       "platforms": [
         {
           "name": "KickSat Boards",
@@ -18,9 +16,7 @@
           "archiveFileName": "kicksat_boards.1.0.tar.bz2",
           "checksum": "SHA-256:2476560ACE4CC60285F42CDDB6880D5F389F45B6A9E60637A931A90712F459BE",
           "size": "864134",
-          "help": {
-            "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
-          },
+          "help": {"online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"},
           "boards": [
             {"name": "KMB21"},
             {"name": "KMB22"},
@@ -28,8 +24,7 @@
           "toolsDependencies": []
         }
       ],
-      "tools": [
-      ]
+      "tools": []
     }
   ]
 }
