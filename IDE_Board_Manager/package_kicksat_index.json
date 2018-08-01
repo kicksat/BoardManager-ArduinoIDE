@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "KickSat",
+      "name": "kicksat",
       "maintainer": "KickSat",
       "websiteURL": "http://kicksat.io",
       "email": "kicksat@gmail.com",
