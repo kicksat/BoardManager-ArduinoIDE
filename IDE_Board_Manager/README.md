@@ -2,6 +2,8 @@
 
 This is forked from Arduino's GitHub: https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.6.x-package_index.json-format-specification
 
+Information specifically related to board specific files (i.e. boards.txt, variants.h, etc.): https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5-3rd-party-Hardware-specification#hardware-folders-structure
+
 Starting from version 1.6.4 the Boards Manager of the Arduino IDE can be used to automatically install support for **3rd party hardware** by simply entering an URL in the **File > Preferences** dialog. The URL must be provided by the 3rd party hardware producer and should point to a JSON file that contains an index of the boards available to install and the location of the installation archives. Boards Manager also allows easy updates of installed Boards when new versions are released.
 
 ## Naming of the JSON index file
