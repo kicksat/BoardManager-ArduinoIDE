@@ -1,5 +1,12 @@
 {
   "packages": [
+    {
+      "name": "sprites",
+      "maintainer": "KickSat Team",
+      "websiteURL": "http://kicksat.io",
+      "email": "kicksat@gmail.com",
+      "help": {"online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"},
+      "platforms": [
         {
           "name": "Sprite Boards",
           "architecture": "samd",

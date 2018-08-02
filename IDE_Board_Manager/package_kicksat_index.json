@@ -2,7 +2,7 @@
   "packages": [
     {
       "name": "kicksat",
-      "maintainer": "KickSat",
+      "maintainer": "KickSat Team",
       "websiteURL": "http://kicksat.io",
       "email": "kicksat@gmail.com",
       "help": {"online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"},
@@ -16,6 +16,54 @@
           "archiveFileName": "kicksat_boards.1.0.zip",
           "checksum": "SHA-256:331EF2F78F909B3E2970995B3972BBEC28281A153F78D97793D95E88CAA9AF93",
           "size": "1206217",
+          "help": {"online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"},
+          "boards": [
+            {"name": "KMB20"},
+            {"name": "KMB21"},
+            {"name": "KMB22"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino6-static"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.0"
+            }
+          ]
+        },
+        {
+          "name": "KickSat Boards",
+          "architecture": "samd",
+          "version": "1.1",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/kicksat/ArduinoIDE-KickSat-Boards/master/IDE_Board_Manager/kicksat_boards.1.1.zip",
+          "archiveFileName": "kicksat_boards.1.1.zip",
+          "checksum": "SHA-256:C8B3E0F3F7DD89EDB95F34D99BE14DA032F3DAAC36EF7D8408E707AF036A9CCB",
+          "size": "1207349",
           "help": {"online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"},
           "boards": [
             {"name": "KMB20"},
