@@ -54,6 +54,52 @@
               "version": "1.2.0"
             }
           ]
+        },
+        {
+          "name": "Sprite Boards",
+          "architecture": "samd",
+          "version": "1.0",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/kicksat/ArduinoIDE-KickSat-Boards/master/IDE_Board_Manager/sprite_boards.1.0.zip",
+          "archiveFileName": "sprite_boards.1.0.zip",
+          "checksum": "SHA-256:2EE122D0F9021334EDD02F4E08F1929D2DD4F7FDCA379227D2EE6FA45102FBE5",
+          "size": "51983991",
+          "help": {"online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"},
+          "boards": [
+            {"name": "Sprite"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino6-static"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.0"
+            }
+          ]
         }
       ],
       "tools":[]
