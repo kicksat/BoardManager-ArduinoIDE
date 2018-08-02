@@ -14,8 +14,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/kicksat/ArduinoIDE-KickSat-Boards/master/IDE_Board_Manager/sprite_boards.1.0.zip",
           "archiveFileName": "sprite_boards.1.0.zip",
-          "checksum": "SHA-256:A5AB6B7A0F16C3628D66F3BA1A086493057F33A491B93B723824DB7B4348D8F5",
-          "size": "7099948",
+          "checksum": "SHA-256:1DB3E3CB6C4D480D4102AA3D1355390AC4823E69B5E27A0826BB3844C36BDED5",
+          "size": "7099945",
           "help": {"online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"},
           "boards": [
             {"name": "Sprite"}
