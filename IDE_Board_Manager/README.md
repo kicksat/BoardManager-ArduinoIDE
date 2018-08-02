@@ -17,7 +17,7 @@ We suggest using a domain name owned by the packager. For example:
 
 `package_arduino.cc_index.json`
 
-or 
+or
 
 `package_example.com_avr_boards_index.json`
 
@@ -307,9 +307,9 @@ After adding Boards Manager support for your boards, please share the JSON index
 
 ## Instructions to update KickSat boards (on Windows)
 
-1. Pack the kicksat board folder in kicksat_boards (they can be packed as either a zip or tar.bz2)
-2. Rename the packed file to: kicksat_boards.X.X.zip (OR kicksat_boards.X.X.tar.bz2), replacing X.X with the version number
-3. Move the file "kicksat_boards.X.X.zip" to /ArduinoIDE-KickSat-Boards/IDE_Board_Manager/
-4. Open file properties to determine the fize size in bytes, then add that info into the JSON file: package_kicksat_index.json, under platforms>>size
-5. In Windows PowerShell, type: "Get-FileHash -Path kicksat_boards.X.X.tar.bz2 -Algorithm SHA256 | Format-List" (without quotes and replacing X.X with the version number), then update that info into the JSON file: "package_kicksat_index.json", under "platforms">>"checksum"
+1. Pack the "kicksat" board folder into a zip file in "kicksat_boards"
+2. Rename the packed file to: "kicksat_boards.X.X.zip", replacing X.X with the version number
+3. Move the file "kicksat_boards.X.X.zip" to "/ArduinoIDE-KickSat-Boards/IDE_Board_Manager/"
+4. Open file properties to determine the fize size in bytes, then add that info into the JSON file: "package_kicksat_index.json", under "platforms">>"size"
+5. In Windows PowerShell, type: "Get-FileHash -Path kicksat_boards.X.X.zip -Algorithm SHA256 | Format-List" (without quotes and replacing X.X with the version number), then update that info into the JSON file: "package_kicksat_index.json", under "platforms">>"checksum"
 6. Update the "url" and "archiveFileName" in "package_kicksat_index.json" under "platforms"
