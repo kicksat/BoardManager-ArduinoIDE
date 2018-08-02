@@ -1,26 +1,17 @@
 {
   "packages": [
-    {
-      "name": "kicksat",
-      "maintainer": "KickSat",
-      "websiteURL": "http://kicksat.io",
-      "email": "kicksat@gmail.com",
-      "help": {"online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"},
-      "platforms": [
         {
-          "name": "KickSat Boards",
+          "name": "Sprite Boards",
           "architecture": "samd",
           "version": "1.0",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/kicksat/ArduinoIDE-KickSat-Boards/master/IDE_Board_Manager/kicksat_boards.1.0.zip",
-          "archiveFileName": "kicksat_boards.1.0.zip",
-          "checksum": "SHA-256:331EF2F78F909B3E2970995B3972BBEC28281A153F78D97793D95E88CAA9AF93",
-          "size": "1206217",
+          "url": "https://raw.githubusercontent.com/kicksat/ArduinoIDE-KickSat-Boards/master/IDE_Board_Manager/sprite_boards.1.0.zip",
+          "archiveFileName": "sprite_boards.1.0.zip",
+          "checksum": "SHA-256:2EE122D0F9021334EDD02F4E08F1929D2DD4F7FDCA379227D2EE6FA45102FBE5",
+          "size": "51983991",
           "help": {"online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"},
           "boards": [
-            {"name": "KMB20"},
-            {"name": "KMB21"},
-            {"name": "KMB22"}
+            {"name": "Sprite"}
           ],
           "toolsDependencies": [
             {
