@@ -19,7 +19,7 @@ If there is already an URL from another manufacturer in that field, click the bu
 
 Open the Boards Manager window by selecting **Tools** > **Board**, scroll to the top of the board list, and select **Boards Manager**.
 
-![Boards Manager Menu](manager-menu.png)
+![Boards Manager Menu](README-Images/manager-menu.png)
 
 If you type "sparkfun" (without quotes) into the "filter your search" field, you will see options to install SparkFun's AVR and ESP board files. Click in the desired box, and click the "Install" button that appears. Once installed, the boards will appear at the bottom of the board list.
 
@@ -33,11 +33,11 @@ Open the Boards Manager window by selecting **Tools** > **Board**, scroll to the
 
 Click anywhere in the "Arduino SAMD Boards" box, and click "Install". This is a large installation and will take a while.
 
-![Arduino SAMD Boards](manager-arrow.png)
+![Arduino SAMD Boards](README-Images/manager-arrow.png)
 
 Now click anywhere in the "SparkFun SAMD Boards" box, and click "Install". This is a small installation and will happen much faster.
 
-![SparkFun SAMD Boards](manager-arrow2.png)
+![SparkFun SAMD Boards](README-Images/manager-arrow2.png)
 
 You're now ready to use the boards. They will appear at the bottom of the board list.
 
