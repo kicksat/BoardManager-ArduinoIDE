@@ -11,7 +11,7 @@ To add board support for our products, start Arduino and open the Preferences wi
 	https://raw.githubusercontent.com/kicksat/ArduinoIDE-KickSat-Boards/master/IDE_Board_Manager/package_kicksat_index.json
 	https://raw.githubusercontent.com/kicksat/ArduinoIDE-KickSat-Boards/master/IDE_Board_Manager/package_sprites_index.json
 
-![Location of Additional Boards Manager URL input field](prefs-arrow.png)
+![Location of Additional Boards Manager URL input field](README-Images/prefs-arrow.png)
 
 If there is already an URL from another manufacturer in that field, click the button at the right end of the field. This will open an editing window allowing you to paste the above URL onto a new line.
 
