@@ -1,6 +1,6 @@
 # KickSat Arduino Boards
 
-This repository contains support for the KickSat boards. This tutorial and repo are cloned and modified from the SparkFun GitHub repo.
+This repository contains support for the KickSat boards. This tutorial and repo are cloned and modified from the SparkFun GitHub repo. So everything will say "sparkfun". The only difference is that our boards will say "KickSat"
 
 **IMPORTANT NOTE:** These board files have been updated for compatibility with Arduino version 1.8 and higher. Some boards (e.g. SAMD) may not compile correctly with earlier versions of Arduino. If you need compatibility with earlier versions of Arduino, you can choose previous releases of these boards from the Boards Manager.
 
@@ -40,10 +40,6 @@ Now click anywhere in the "SparkFun SAMD Boards" box, and click "Install". This 
 ![SparkFun SAMD Boards](README-Images/manager-arrow2.png)
 
 You're now ready to use the boards. They will appear at the bottom of the board list.
-
-### Notes
-
-* Information on compiling and programming the bootloaders can be found in the bootloaders directory.
 
 **Have fun!**<br>
 \-Your friends from KickSat
