@@ -23,7 +23,7 @@ Open the Boards Manager window by selecting **Tools** > **Board**, scroll to the
 
 If you type "sparkfun" (without quotes) into the "filter your search" field, you will see options to install SparkFun's AVR and ESP board files. Click in the desired box, and click the "Install" button that appears. Once installed, the boards will appear at the bottom of the board list.
 
-![Sparkfun Boards](sparkfunboards.png)
+![Sparkfun Boards](README-Images/sparkfunboards.png)
 
 ### SAMD Installation Instructions
 
