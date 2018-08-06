@@ -2,7 +2,7 @@
 
 This is forked from Arduino's GitHub: https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.6.x-package_index.json-format-specification
 
-Information specifically related to board specific files (i.e. boards.txt, variants.h, etc.): https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5-3rd-party-Hardware-specification#hardware-folders-structure
+Information related to board specific files (i.e. boards.txt, variants.h, etc.): https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5-3rd-party-Hardware-specification#hardware-folders-structure
 
 Starting from version 1.6.4 the Boards Manager of the Arduino IDE can be used to automatically install support for **3rd party hardware** by simply entering an URL in the **File > Preferences** dialog. The URL must be provided by the 3rd party hardware producer and should point to a JSON file that contains an index of the boards available to install and the location of the installation archives. Boards Manager also allows easy updates of installed Boards when new versions are released.
 
@@ -307,9 +307,8 @@ After adding Boards Manager support for your boards, please share the JSON index
 
 ## Instructions to update KickSat boards (on Windows)
 
-1. Pack the "kicksat" board folder into a zip file in "kicksat_boards"
-2. Rename the packed file to: "kicksat_boards.X.X.zip", replacing X.X with the version number
-3. Move the file "kicksat_boards.X.X.zip" to "/ArduinoIDE-KickSat-Boards/IDE_Board_Manager/"
-4. Open file properties to determine the fize size in bytes, then add that info into the JSON file: "package_kicksat_index.json", under "platforms">>"size"
-5. In Windows PowerShell, type: "Get-FileHash -Path kicksat_boards.X.X.zip -Algorithm SHA256 | Format-List" (without quotes and replacing X.X with the version number), then update that info into the JSON file: "package_kicksat_index.json", under "platforms">>"checksum"
-6. Update the "url" and "archiveFileName" in "package_kicksat_index.json" under "platforms"
+1. Pack the "kicksat" board folder into a zip file in "kicksat_boards.X.X.zip", replacing X.X with the version number
+2. Move the file "kicksat_boards.X.X.zip" to "/BoardManager-ArduinoIDE/IDE_BoardManager/"
+3. Open file properties to determine the fize size in bytes, then add that info into the JSON file: "package_kicksat_index.json", under "platforms">>"size"
+4. In Windows PowerShell, type: "Get-FileHash -Path kicksat_boards.X.X.zip -Algorithm SHA256 | Format-List" (without quotes and replacing X.X with the version number), then update that info into the JSON file: "package_kicksat_index.json", under "platforms">>"checksum"
+5. Update the "url" and "archiveFileName" in "package_kicksat_index.json" under "platforms"
