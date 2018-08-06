@@ -12,7 +12,7 @@
           "architecture": "samd",
           "version": "1.0",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/kicksat/ArduinoIDE-KickSat-Boards/master/IDE_Board_Manager/sprite_boards.1.0.zip",
+          "url": "https://raw.githubusercontent.com/kicksat/BoardManager-ArduinoIDE/master/IDE_BoardManager/sprite_boards.1.0.zip",
           "archiveFileName": "sprite_boards.1.0.zip",
           "checksum": "SHA-256:1DB3E3CB6C4D480D4102AA3D1355390AC4823E69B5E27A0826BB3844C36BDED5",
           "size": "7099945",
