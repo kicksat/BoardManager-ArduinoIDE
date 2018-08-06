@@ -8,8 +8,8 @@ This repository contains support for the KickSat boards. This tutorial and repo 
 
 To add board support for our products, start Arduino and open the Preferences window (**File** > **Preferences**). Now copy and paste the following URLs into the 'Additional Boards Manager URLs' input field:
 
-	https://raw.githubusercontent.com/kicksat/ArduinoIDE-KickSat-Boards/master/IDE_Board_Manager/package_kicksat_index.json
-	https://raw.githubusercontent.com/kicksat/ArduinoIDE-KickSat-Boards/master/IDE_Board_Manager/package_sprites_index.json
+	https://raw.githubusercontent.com/kicksat/BoardManager-ArduinoIDE/master/IDE_BoardManager/package_kicksat_index.json
+	https://raw.githubusercontent.com/kicksat/BoardManager-ArduinoIDE/master/IDE_BoardManager/package_sprites_index.json
 
 ![Location of Additional Boards Manager URL input field](README-Images/prefs-arrow.png)
 
