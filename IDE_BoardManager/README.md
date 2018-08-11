@@ -1,3 +1,11 @@
+
+### Installation Instructions
+
+To add board support for our products, start Arduino and open the Preferences window (**File** > **Preferences**). Now copy and paste the following URLs into the 'Additional Boards Manager URLs' input field:
+
+	https://raw.githubusercontent.com/kicksat/BoardManager-ArduinoIDE/master/IDE_BoardManager/package_kicksat_index.json
+	https://raw.githubusercontent.com/kicksat/BoardManager-ArduinoIDE/master/IDE_BoardManager/package_sprites_index.json
+
 ## JSON README
 
 This is forked from Arduino's GitHub: https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.6.x-package_index.json-format-specification
