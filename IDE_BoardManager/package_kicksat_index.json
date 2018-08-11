@@ -5,7 +5,9 @@
       "maintainer": "KickSat Team",
       "websiteURL": "http://kicksat.io",
       "email": "kicksat@gmail.com",
-      "help": {"online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"},
+      "help": {
+        "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
+      },
       "platforms": [
         {
           "name": "KickSat Boards",
@@ -16,11 +18,19 @@
           "archiveFileName": "kicksat_boards.1.0.zip",
           "checksum": "SHA-256:331EF2F78F909B3E2970995B3972BBEC28281A153F78D97793D95E88CAA9AF93",
           "size": "1206217",
-          "help": {"online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"},
+          "help": {
+            "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
+          },
           "boards": [
-            {"name": "KMB20"},
-            {"name": "KMB21"},
-            {"name": "KMB22"}
+            {
+              "name": "KMB20"
+            },
+            {
+              "name": "KMB21"
+            },
+            {
+              "name": "KMB22"
+            }
           ],
           "toolsDependencies": [
             {
@@ -64,11 +74,75 @@
           "archiveFileName": "kicksat_boards.1.1.zip",
           "checksum": "SHA-256:4750E4E23A86DD6AA5588642D35B5645E8D7080EA2D3E23207F02EF8A338E3B5",
           "size": "1206261",
-          "help": {"online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"},
+          "help": {
+            "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
+          },
           "boards": [
-            {"name": "KMB20"},
-            {"name": "KMB21"},
-            {"name": "KMB22"}
+            {
+              "name": "KMB20"
+            },
+            {
+              "name": "KMB21"
+            },
+            {
+              "name": "KMB22"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino6-static"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.0"
+            }
+          ]
+        },
+        {
+          "name": "KickSat Boards",
+          "architecture": "samd",
+          "version": "1.2",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/kicksat/BoardManager-ArduinoIDE/master/IDE_BoardManager/kicksat_boards.1.2.zip",
+          "archiveFileName": "kicksat_boards.1.2.zip",
+          "checksum": "41c45babeaca576d0ae626d1e7ac1fd76f2dd7a9b10ea1112c454fd1d3a9c6e9",
+          "size": "14096150",
+          "help": {
+            "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
+          },
+          "boards": [
+            {
+              "name": "KMB20"
+            },
+            {
+              "name": "KMB21"
+            },
+            {
+              "name": "KMB22"
+            }
           ],
           "toolsDependencies": [
             {
@@ -104,7 +178,7 @@
           ]
         }
       ],
-      "tools":[]
+      "tools": []
     }
   ]
 }
