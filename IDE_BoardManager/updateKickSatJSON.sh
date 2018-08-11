@@ -27,7 +27,9 @@ url='https://raw.githubusercontent.com/kicksat/BoardManager-ArduinoIDE/master/ID
 folderpathDestination=$HOME'/Documents/GitHub/BoardManager-ArduinoIDE/IDE_BoardManager/'
 filenameDestination='kicksat_boards.'$version'.zip'
 filepathDestination=$folderpathDestination$filenameDestination
-folderpathSource=$HOME'/Documents/GitHub/KickSatBoards-ArduinoIDE'
+folderpathSource=$HOME'/Documents/GitHub/'
+filenameSource='KickSatBoards-ArduinoIDE'
+filepathSource=$folderpathSource$filenameSource
 jsonFolderpath=$folderpathDestination
 jsonFilenameNoExt='package_kicksat_index'
 jsonFilename=$jsonFilenameNoExt'.json'
@@ -36,6 +38,7 @@ jsonFilepathNoExt=$jsonFolderpath$jsonFilenameNoExt
 jsonFilepathTEMP=$jsonFolderpath$jsonFilenameNoExt'TEMP.json'
 archiveFileName=$filenameDestination
 echo Version: $version
+echo Source folder: $filenameSource
 echo Source folderpath: $folderpathSource
 echo Destination folderpath: $folderpathDestination
 echo Destination filename: $filenameDestination
@@ -43,7 +46,9 @@ echo Destination filepath: $filepathDestination
 echo JSON filename: $jsonFilename
 echo JSON filepath: $jsonFilepath
 echo Archive File Name: $archiveFileName
-zip -r $filepathDestination $folderpathSource
+cd $folderpathSource
+zip -r $filepathDestination $filenameSource
+cd -
 filesize=$(du -b $filepathDestination | awk '{ print $1 }')
 checksum='SHA-256:'$(sha256sum $filepathDestination | awk '{ print $1 }')
 echo Folder zipped successfully
