@@ -128,7 +128,7 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/kicksat/BoardManager-ArduinoIDE/master/IDE_BoardManager/kicksat_boards.1.2.zip",
           "archiveFileName": "kicksat_boards.1.2.zip",
-          "checksum": "SHA-256:41c45babeaca576d0ae626d1e7ac1fd76f2dd7a9b10ea1112c454fd1d3a9c6e9",
+          "checksum": "SHA-256:bb841f6b95ba096479e8a3c6c4485684aa67a85d41685798fba57b50af030637",
           "size": "14096150",
           "help": {
             "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
