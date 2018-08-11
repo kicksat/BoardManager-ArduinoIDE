@@ -45,7 +45,7 @@ echo JSON filepath: $jsonFilepath
 echo Archive File Name: $archiveFileName
 zip -r $filepathDestination $folderpathSource
 filesize=$(du -b $filepathDestination | awk '{ print $1 }')
-checksum=$(sha256sum $filepathDestination | awk '{ print $1 }')
+checksum='SHA-256:'$(sha256sum $filepathDestination | awk '{ print $1 }')
 echo Folder zipped successfully
 echo File size: $filesize
 echo Checksum: $checksum
