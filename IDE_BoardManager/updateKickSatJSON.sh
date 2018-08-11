@@ -47,7 +47,9 @@ echo JSON filename: $jsonFilename
 echo JSON filepath: $jsonFilepath
 echo Archive File Name: $archiveFileName
 cd $folderpathSource
-zip -r $filepathDestination $filenameSource
+cp -a $filenameSource kicksat
+zip -r $filepathDestination kicksat
+rm -rf kicksat
 cd -
 filesize=$(du -b $filepathDestination | awk '{ print $1 }')
 checksum='SHA-256:'$(sha256sum $filepathDestination | awk '{ print $1 }')
