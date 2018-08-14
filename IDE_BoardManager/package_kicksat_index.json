@@ -232,6 +232,62 @@
               "version": "1.2.0"
             }
           ]
+        },
+        {
+          "name": "KickSat Boards",
+          "architecture": "samd",
+          "version": "1.4",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/kicksat/BoardManager-ArduinoIDE/master/IDE_BoardManager/kicksat_boards.1.4.zip",
+          "archiveFileName": "kicksat_boards.1.4.zip",
+          "checksum": "SHA-256:3cc40f3c363a25e0cd767f84d029df08241c00085247a00e72ddd8175b90b698",
+          "size": "13960964",
+          "help": {
+            "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
+          },
+          "boards": [
+            {
+              "name": "KMB20"
+            },
+            {
+              "name": "KMB21"
+            },
+            {
+              "name": "KMB22"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino6-static"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.0"
+            }
+          ]
         }
       ],
       "tools": []
