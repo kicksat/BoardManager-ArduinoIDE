@@ -313,7 +313,7 @@ After adding Boards Manager support for your boards, please share the JSON index
 
 
 
-## Instructions to update KickSat boards (on Windows)
+## Instructions to update KickSat boards (on Windows) (the manual way - outdated)
 
 1. Pack the "kicksat" board folder into a zip file in "kicksat_boards.X.X.zip", replacing X.X with the version number
 2. Move the file "kicksat_boards.X.X.zip" to "/BoardManager-ArduinoIDE/IDE_BoardManager/"
